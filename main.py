@@ -26,7 +26,6 @@ for j in range(int(counted_time)):
     cursor_value_x = randint(1, screen_width)
     cursor_value_y = randint(1, screen_height)
     actual_cursor_position = position()
-    print(j)
 
     if cursor_value_x != actual_cursor_position[0] and cursor_value_y != actual_cursor_position[1]:
         moveTo(cursor_value_x, cursor_value_y, 0.5)
